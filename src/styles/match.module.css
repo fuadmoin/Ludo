@@ -1,0 +1,265 @@
+.GameName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: #dac1c1 2px solid;
+  border-radius: 10px;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 40rem;
+  text-transform: uppercase;
+  text-align: center;
+  width: 15rem;
+  border: #aca05e 4px solid;
+  box-shadow: #979595  5px 5px 5px 5px;
+}
+
+.container {
+  display: flex;
+  padding-left: 6rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  font-size: 20px;
+  background: wheat;
+  width: 80rem;
+  border-radius: 5px;
+  border: #7eec84 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.name {
+  margin-left: 5rem;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  width: 15rem;
+  text-align: center;
+}
+
+.id {
+  margin-left: 0;
+  width: 10rem;
+  text-align: left;
+}
+
+.check {
+  position: relative;
+  left: -4rem;
+  margin-right: 2rem;
+}
+
+.button {
+  display: block;
+  margin-left: 34rem;
+  margin-top: 2rem;
+  height: 35px;
+  font-weight: 600;
+  width: 8rem;
+  background: rgb(65, 142, 230);
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border-color: aqua;
+  border-style: double;
+  border-radius: 2px;
+  color: rgb(171, 211, 230);
+  background-color: rgb(15, 15, 15);
+  font-size: larger;
+}
+
+.buttonN {
+  margin-left: 65rem;
+  position: relative;
+  top: -1rem;
+  background: rgb(65, 230, 134);
+}
+
+.info {
+  display: inline-block;
+  margin-top: 7rem;
+  font-size: 18px;
+  margin-left: 6rem;
+}
+
+.winnersList {
+  margin-left: 6rem;
+  margin-top: 3rem;
+  font-size: 25px;
+  border: #ec7220 2px solid;
+  box-shadow: #e79094  5px 5px 5px 5px;
+  width: 15rem;
+  text-align: center;
+}
+
+.reserved {
+  margin-left: 13rem;
+  margin-top: 3rem;
+  font-size: 25px;
+  width: 15rem;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595  5px 5px 5px 5px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.winners {
+  margin-left: 6rem;
+  margin-top: 2rem;
+  font-size: 25px;
+  width: 40rem;
+  border: #ec7220 2px solid;
+  box-shadow: #e79094  5px 5px 5px 5px;
+  font-weight: 500;
+}
+
+.number {
+  margin: 0 1rem;
+}
+
+.names {
+  margin-right: 2rem;
+  display: inline-block;
+  min-width: 18rem;
+}
+
+.reservedContainer {
+  display: flex;
+}
+
+.label {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 20px;
+  height: 2.5rem;
+  margin-right: 1rem;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 2px 2px 2px 2px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 8rem;
+  text-align: center;
+}
+
+.input {
+  width: 10rem;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .GameName {
+    width: 18.5rem;
+    margin: 2rem 0 2rem 10%;
+  }
+
+  .title {
+    margin-left: 20%;
+  }
+
+  .container {
+    width: 85%;
+    margin-left: 10%;
+    height: 7rem;
+    padding-left: 2px;
+  }
+
+  .index {
+    width: 4rem;
+    display: inline-block;
+    padding-top: 1.5rem;
+    text-align: center;
+    background-color: aqua;
+    height: 6.5rem;
+    margin-top: 0.17rem;
+  }
+
+  .name {
+    margin-left: 10px;
+    font-size: 16px;
+    width: 8rem;
+    text-align: left;
+  }
+
+  .id {
+    width: 5rem;
+    text-align: left;
+    position: relative;
+    top: -1.7rem;
+    left: 7.5rem;
+  }
+
+  .vs {
+    margin-left: -5rem;
+    position: relative;
+    top: 2.3rem;
+    font-weight: 600;
+  }
+
+  .team2 {
+    position: relative;
+    top: 4rem;
+    left: -6.2rem;
+  }
+
+  .check {
+    left: 8.5rem;
+    margin-right: 2rem;
+    top: -1.6rem;
+  }
+
+  .reservedContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .winnersList {
+    margin-left: 20%;
+  }
+
+  .reserved {
+    margin-left: 20%;
+  }
+
+  .info {
+    margin-left: 5%;
+    margin-top: 2rem;
+  }
+
+  .button {
+    margin-left: 40%;
+  }
+
+  .buttonN {
+    margin-top: 2.5rem;
+  }
+
+  .winners {
+    margin-left: 10%;
+    width: 85%;
+  }
+
+  .number {
+    margin: 0 10px;
+  }
+
+  .names {
+    margin-right: 1rem;
+    min-width: 10rem;
+  }
+}

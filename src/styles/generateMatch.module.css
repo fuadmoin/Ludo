@@ -1,0 +1,141 @@
+.GameName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: #dac1c1 2px solid;
+  border-radius: 10px;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.button {
+  display: block;
+  margin-left: 44rem;
+  margin-top: 5rem;
+  height: 35px;
+  font-weight: 600;
+  width: 10rem;
+  background: rgb(65, 142, 230);
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border-color: aqua;
+  border-style: double;
+  border-radius: 2px;
+  color: rgb(171, 211, 230);
+  background-color: rgb(15, 15, 15);
+  font-size: larger;
+}
+
+.buttonN {
+  margin-left: 65rem;
+  background: rgb(65, 230, 134);
+}
+
+.container {
+  display: flex;
+  padding-left: 6rem;
+  margin-top: 1rem;
+  margin-left: 6rem;
+  font-size: 20px;
+  background: wheat;
+  width: 80rem;
+  border-radius: 25px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 2px 2px 2px 2px;
+}
+
+.name {
+  margin-left: 5rem;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  width: 15rem;
+  text-align: center;
+}
+
+.id {
+  margin-left: 0;
+  width: 10rem;
+  text-align: left;
+}
+
+.info {
+  display: inline-block;
+  margin-top: 7rem;
+  font-size: 18px;
+  margin-left: 6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .GameName {
+    width: 18.5rem;
+    margin: 2rem 0 2rem 10%;
+  }
+
+  .button {
+    margin-left: 34%;
+    margin-top: -0.3rem;
+  }
+
+  .info {
+    margin-left: 5%;
+    margin-top: 2rem;
+  }
+
+  .buttonN {
+    margin-top: 1rem;
+  }
+
+  .container {
+    width: 21rem;
+    margin-left: 4%;
+    padding-left: 10px;
+    height: 6rem;
+  }
+
+  .name {
+    margin-left: 20px;
+    font-size: 18px;
+    width: 10rem;
+    text-align: left;
+  }
+
+  .id {
+    width: 4rem;
+    text-align: left;
+    position: relative;
+    top: -1.7rem;
+    left: 10rem;
+  }
+
+  .index {
+    width: 6rem;
+    display: inline-block;
+    padding-top: 1.5rem;
+    text-align: center;
+    background-color: aqua;
+    height: 5.5rem;
+    margin-top: 0.1rem;
+  }
+
+  .vs {
+    margin-left: -4rem;
+    position: relative;
+    top: 2rem;
+    font-weight: 600;
+  }
+
+  .team2 {
+    position: relative;
+    top: 4rem;
+    left: -8.4rem;
+  }
+}

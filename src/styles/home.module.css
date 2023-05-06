@@ -1,0 +1,156 @@
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 2rem 2rem 1rem 10rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: #1c4d3e 2px solid;
+  border-radius: 10px;
+  box-shadow: #0b1f24 5px 5px 5px 5px;
+  width: 70rem;
+}
+
+.GameName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: #dac1c1 2px solid;
+  border-radius: 10px;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.textInput {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  font-size: 12px;
+}
+
+.textInputE {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  outline: none;
+  font-size: 25px;
+}
+
+.textl {
+  margin-left: 10rem;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 2rem;
+  margin-top: 4rem;
+  display: inline-block;
+}
+
+.textLabel {
+  margin-left: 10rem;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 2rem;
+}
+
+.info {
+  display: inline-block;
+  margin-top: 7rem;
+  font-size: 18px;
+  margin-left: 6rem;
+}
+
+.warning {
+  color: red;
+  text-align: center;
+  font-style: italic;
+  position: relative;
+  left: 48rem;
+  top: -5rem;
+}
+
+.button {
+  display: block;
+  margin-left: 39.5rem;
+  margin-top: 1rem;
+  height: 35px;
+  width: 100px;
+  background: rgb(65, 142, 230);
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.buttonN {
+  margin-left: 65rem;
+  height: 35px;
+  width: 100px;
+  background: rgb(65, 230, 134);
+}
+
+.button:hover,
+.button:active {
+  border-color: aqua;
+  border-style: double;
+  border-radius: 2px;
+  color: rgb(171, 211, 230);
+  background-color: rgb(15, 15, 15);
+  font-size: larger;
+}
+
+@media only screen and (max-width: 768px) {
+  .GameName {
+    width: 18.5rem;
+    margin: 2rem 0 2rem 10%;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin: 2rem 2rem 1rem 5%;
+    width: 20rem;
+  }
+
+  .textInputE {
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 10%;
+  }
+
+  .textl {
+    margin: 0 10%;
+  }
+
+  .textLabel {
+    margin: 0 1rem;
+    font-size: 16px;
+  }
+
+  .textInput {
+    width: 8rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+
+  .warning {
+    left: 2rem;
+    top: 0.5rem;
+  }
+
+  .button {
+    margin-left: 15rem;
+    margin-top: -2.3rem;
+  }
+
+  .info {
+    margin-left: 5%;
+    margin-top: 2rem;
+  }
+
+  .buttonN {
+    margin-left: 40%;
+    margin-top: 1rem;
+  }
+}

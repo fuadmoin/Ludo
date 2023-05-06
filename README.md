@@ -5,7 +5,7 @@
   <img src="./img/logo2.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Title</b></h3>
+  <h3><b>Pet Finder</b></h3>
 
 </div>
 
@@ -30,26 +30,34 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Math magicians <a name="about-project"></a>
+# 📖 Pet Finder <a name="about-project"></a>
 
-**Math magicians** is a single page app that uses api for a basic calculator.
+**Pet Finder** is a single-page app that helps users find a pet by fetching data from [Pet Finder API](https://www.petfinder.com/developers/).
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-- **HTML, CSS, React, and JavaScript**
+- **CSS, React, Redux, Jest-Test, Redux-Toolkit and API**
 
 ### Key Features <a name="key-features"></a>
 
-- **html styled with css and javascript**
-- **uses react**
+- **React styled with CSS**
+- **uses Redux**
+- **uses Redux-Toolkit**
+- **uses API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"> </a>
 
-> Check out the live demo for this project [here.](https://fuadmoin.github.io/TODOLIST/dist/)
+> Check out the live demo for this project [here.](https://pet-finder-07j6.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Watch Video <a name="watch-video"> </a>
+
+> Check out the video for this project [here.](https://www.loom.com/share/ced7fb6493f94d9d8e9c8d4ebfc992e4)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +83,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git https://github.com/fuadmoin/Math-magicians.git
+  git https://github.com/fuadmoin/Pet-Finder.git
 ```
 
 ### Install <a name="install"></a>
@@ -103,7 +111,7 @@ npm test
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
 
-You can deploy this project using Github-Page.
+You can deploy this project using [Render](https://render.com/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,21 +121,21 @@ You can deploy this project using Github-Page.
 
 - GitHub: [@fuadmoin](https://github.com/fuadmoin)
 - Twitter: [@Fuad01804580](https://twitter.com/Fuad01804580)
-- LinkedIn: [Fuad Moin](https://www.linkedin.com/in/fuad-moin-a7b126259/)
+- LinkedIn: [Fuad Moin](https://www.linkedin.com/in/fuadmoin/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[HTML, CSS, and Javascript will be added]**
-- [ ] **[Api will be added]**
-- [ ] **[users will be able to use the calculator]**
+- [ ] **[Desktop version will be added]**
+- [ ] **[Pets name and pictures will be added]**
+- [ ] **[More categories for the pets will be added]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, [issues](https://github.com/fuadmoin/Math-magicians/issues), and feature requests are welcome!
+Contributions, [issues](https://github.com/fuadmoin/Pet-Finder/issues), and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +147,7 @@ If you like this project please consider starring it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](https://www.microverse.org/).
+I would like to thank [Microverse](https://www.microverse.org/) for giving me this chance to work on this project. Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

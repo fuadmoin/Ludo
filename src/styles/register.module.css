@@ -1,0 +1,180 @@
+.GameName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 4rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  border: #dac1c1 2px solid;
+  border-radius: 10px;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.textLabel {
+  margin-left: 10rem;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 2rem;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 2px 2px 2px 2px;
+  border-radius: 25px;
+  display: inline-block;
+  width: 10rem;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  margin-left: 74rem;
+  margin-top: 1rem;
+  height: 35px;
+  width: 100px;
+  background: rgb(65, 142, 230);
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  border-color: aqua;
+  border-style: double;
+  border-radius: 2px;
+  color: rgb(171, 211, 230);
+  background-color: rgb(15, 15, 15);
+  font-size: larger;
+}
+
+.textInput {
+  width: 20%;
+  padding: 10px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.textInputE {
+  width: 20rem;
+  padding: 10px;
+  border: 1px solid #dfdfdf;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-right: 5rem;
+  box-shadow: #979595 5px 5px 5px 5px;
+}
+
+.textInputN {
+  margin-left: 20rem;
+}
+
+.listContainer {
+  padding-left: 15rem;
+  padding-top: 1rem;
+}
+
+.h2 {
+  margin-left: 10rem;
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+  text-align: center;
+  width: 10rem;
+}
+
+.list {
+  position: relative;
+  left: 40rem;
+  width: 10rem;
+  top: -2rem;
+  border-radius: 10px;
+  border: #dac1c1 2px solid;
+  box-shadow: #979595 5px 5px 5px 5px;
+  text-align: center;
+}
+
+.playersContainer {
+  display: grid;
+  padding-left: 9rem;
+  grid-template-columns: 3rem 30rem 10rem;
+}
+
+.name {
+  border: #dac1c1 2px solid;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.info {
+  display: inline-block;
+  margin-top: 7rem;
+  font-size: 18px;
+  margin-left: 6rem;
+}
+
+.buttonN {
+  margin-left: 65rem;
+  background: rgb(65, 230, 134);
+}
+
+@media only screen and (max-width: 768px) {
+  .GameName {
+    width: 18.5rem;
+    margin: 2rem 0 2rem 10%;
+  }
+
+  .textLabel {
+    margin-left: 30%;
+    margin-bottom: 1rem;
+  }
+
+  .textInput {
+    width: 15rem;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+  }
+
+  .textInputN {
+    margin-left: -2rem;
+    position: relative;
+    top: 3rem;
+  }
+
+  .button {
+    margin-left: 42%;
+    margin-top: 0.3rem;
+  }
+
+  .h2 {
+    margin: 2rem 0 0 -13.5rem;
+    width: 8.5rem;
+  }
+
+  .list {
+    margin: -2.4rem 0 0 -41rem;
+    width: 6.5rem;
+  }
+
+  .playersContainer {
+    padding-left: 0;
+    margin-left: -14.2rem;
+    grid-template-columns: 2rem 13.5rem 5rem;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .info {
+    margin-left: 5%;
+    margin-top: 2rem;
+  }
+
+  .buttonN {
+    margin-left: 40%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
