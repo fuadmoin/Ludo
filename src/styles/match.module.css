@@ -44,14 +44,15 @@
 }
 
 .id {
-  margin-left: 0;
-  width: 10rem;
+display: inline-block;
+  margin-left: 10px;
+  width: 7rem;
   text-align: left;
 }
 
 .check {
   position: relative;
-  left: -4rem;
+  left: 1rem;
   margin-right: 2rem;
 }
 
@@ -180,7 +181,7 @@
   }
 
   .index {
-    width: 4rem;
+    width: 3rem;
     display: inline-block;
     padding-top: 1.5rem;
     text-align: center;
@@ -192,33 +193,35 @@
   .name {
     margin-left: 10px;
     font-size: 16px;
-    width: 8rem;
+    width: 9rem;
     text-align: left;
   }
 
   .id {
     width: 5rem;
     text-align: left;
-    position: relative;
+    /* position: relative; */
+    font-size: 16px;
     top: -1.7rem;
-    left: 7.5rem;
+    left: 10rem;
   }
 
   .vs {
     margin-left: -5rem;
-    position: relative;
-    top: 2.3rem;
+    margin-top: 2.3rem;
+    width: 5rem;
+    margin-left: -11rem;
     font-weight: 600;
+    height: 1.5rem;
   }
 
   .team2 {
-    position: relative;
-    top: 4rem;
-    left: -6.2rem;
+    margin-top: 4rem;
+    margin-left: -10rem;
   }
 
   .check {
-    left: 8.5rem;
+    left: 15rem;
     margin-right: 2rem;
     top: -1.6rem;
   }

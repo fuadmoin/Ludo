@@ -35,7 +35,7 @@ const MatchPage = () => {
                     <small className={styles.index}>Match {index + 1} :</small>
                     <div className="team1">
                         <small className={styles.name}>{match.team1.name}</small>
-                        <small className={styles.name + ' ' +styles.id}>{match.team1.playerId}</small>
+                        <small className={styles.id}>{match.team1.playerId}</small>
                         <input
           type="checkbox"
           className={styles.check}
@@ -46,7 +46,7 @@ const MatchPage = () => {
                     <small className={styles.vs}>VS</small>
                     <div className={styles.team2}>
                         <small className={styles.name}>{match.team2.name}</small>
-                        <small className={styles.name + ' ' +styles.id}>{match.team2.playerId}</small>
+                        <small className={styles.id}>{match.team2.playerId}</small>
                         <input
           type="checkbox"
           className={styles.check}

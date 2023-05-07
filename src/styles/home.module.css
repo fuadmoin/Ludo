@@ -1,7 +1,7 @@
 .title {
   font-size: 3rem;
   font-weight: 600;
-  margin: 2rem 2rem 1rem 10rem;
+  margin: 2rem 2rem 1rem 10%;
   line-height: 1em;
   text-transform: uppercase;
   text-align: center;
@@ -109,7 +109,7 @@
 
   .title {
     font-size: 2rem;
-    margin: 2rem 2rem 1rem 5%;
+    margin: 2rem 2rem 1rem 7%;
     width: 20rem;
   }
 
